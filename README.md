@@ -1,25 +1,17 @@
-# YC Company Scraper
+# YC Company Data Analysis
 
-A TypeScript-based tool for scraping and processing Y Combinator company data.
+A TypeScript tool for analyzing Y Combinator company data, providing insights into YC-backed companies' locations, hiring status, and operational status.
 
 ## Features
 
-- Scrapes company data from Y Combinator
-- Processes and cleans the raw data
-- Outputs data in both JSON and CSV formats
-- Handles various company attributes including:
-  - Basic info (name, website, batch)
-  - Location and regions
-  - Industry classification
-  - Team size
+- Location-based company grouping
+- Data cleaning and standardization
+- Multiple output formats (JSON/CSV)
+- Company information includes:
+  - Basic details (name, website)
+  - Status (Active/Inactive/Acquired)
   - Hiring status
-  - Company status (Active/Inactive/Acquired)
-
-## Prerequisites
-
-- Node.js (v16 or higher recommended)
-- npm or yarn
-
-## Installation
-
-1. Clone the repository:
+  - Location and remote work policy
+  - Industry categories
+  - Team information
+  - Regional presence

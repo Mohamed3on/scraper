@@ -8,9 +8,7 @@
     "clean": "ts-node clean.ts"
   },
   "dependencies": {
-    "csv-parse": "^5.5.6",
     "csv-stringify": "^6.5.1",
-    "playwright": "^1.48.2",
     "ts-node": "^10.9.2"
   },
   "devDependencies": {
