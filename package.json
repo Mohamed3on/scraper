@@ -1,0 +1,20 @@
+{
+  "name": "yc-scraper",
+  "type": "module",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "scrape": "NODE_OPTIONS='--loader ts-node/esm' ts-node-esm src/yc.ts",
+    "clean": "ts-node clean.ts"
+  },
+  "dependencies": {
+    "csv-parse": "^5.5.6",
+    "csv-stringify": "^6.5.1",
+    "playwright": "^1.48.2",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.1",
+    "typescript": "^5.6.3"
+  }
+}
